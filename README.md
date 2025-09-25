@@ -213,14 +213,12 @@ user: {
   email,
   imageUrl (avatar)
 }
+```
 
-isLoadingAccount: boolean
-isAuth: boolean
-
-
--   Session cookies managed via route handlers.
+-   Session cookies managed via Route Handlers (API Routes).
 
 -   Middleware checks `isAuth` for protected routes.
+
 
 * * * * *
 

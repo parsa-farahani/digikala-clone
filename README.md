@@ -7,23 +7,39 @@
 ---
 
 ## 📸 Preview
-[![Landing Page](/screenshots/home.png)](https://digikala-clone-theta.vercel.app)
-[![Product Page](/screenshots/product.png)](https://digikala-clone-theta.vercel.app/products/68bcb470002dabca68b8)
+<a href="https://digikala-clone-theta.vercel.app/" target="_blank">
+  <img src="/screenshots/home.png" alt="Landing Page" />
+</a>
+
+<a href="https://digikala-clone-theta.vercel.app/products/68bcb470002dabca68b8" target="_blank">
+  <img src="/screenshots/product.png" alt="Product Page" />
+</a>
+
 
 <details>
 <summary>More Screenshots</summary>
 
 ### Cart Page
-[![Cart Page](/screenshots/cart.png)](https://digikala-clone-theta.vercel.app/cart)
+<a href="https://digikala-clone-theta.vercel.app/cart" target="_blank">
+  <img src="/screenshots/cart.png" alt="Cart Page" />
+</a>
+
 
 ### Profile Page
-[![Profile Page](/screenshots/profile.png)](https://digikala-clone-theta.vercel.app/profile)
+<a href="https://digikala-clone-theta.vercel.app/profile" target="_blank">
+  <img src="/screenshots/profile.png" alt="Profile Page" />
+</a>
+
 
 ### Search Page
-[![Search Page](/screenshots/search.png)](https://digikala-clone-theta.vercel.app/search)
+<a href="https://digikala-clone-theta.vercel.app/search" target="_blank">
+  <img src="/screenshots/search.png" alt="Search Page" />
+</a>
 
 ### Login Page
-[![Landing Page](/screenshots/login.png)](https://digikala-clone-theta.vercel.app/login)
+<a href="https://digikala-clone-theta.vercel.app/login" target="_blank">
+  <img src="/screenshots/login.png" alt="Login Page" />
+</a>
 
 </details>
 

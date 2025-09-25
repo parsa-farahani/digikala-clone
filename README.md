@@ -7,24 +7,23 @@
 ---
 
 ## 📸 Preview
-
-![Landing Page](/screenshots/home.png)
-![Product Page](/screenshots/product.png)
+[![Landing Page](/screenshots/home.png)](https://digikala-clone-theta.vercel.app)
+[![Product Page](/screenshots/product.png)](https://digikala-clone-theta.vercel.app/products/68bcb470002dabca68b8)
 
 <details>
 <summary>More Screenshots</summary>
 
 ### Cart Page
-![Cart Page](/screenshots/cart.png)
+[![Cart Page](/screenshots/cart.png)](https://digikala-clone-theta.vercel.app/cart)
 
 ### Profile Page
-![Profile Page](/screenshots/profile.png)
+[![Profile Page](/screenshots/profile.png)](https://digikala-clone-theta.vercel.app/profile)
 
 ### Search Page
-![Search Page](/screenshots/search.png)
+[![Search Page](/screenshots/search.png)](https://digikala-clone-theta.vercel.app/search)
 
 ### Login Page
-![Login Page](/screenshots/login.png)
+[![Landing Page](/screenshots/login.png)](https://digikala-clone-theta.vercel.app/login)
 
 </details>
 
@@ -234,4 +233,4 @@ user: {
  - Open <http://localhost:3000>
 
 2. Or visit the live demo:
-[Vercel Link]
+[Live Demo](https://digikala-clone-theta.vercel.app)

@@ -1,18 +1,20 @@
-# 🛒 Digikala Clone (Next.js + Appwrite)
+# Digikala Clone
 
-> **Disclaimer**  
-> This project is a **non-commercial clone**, created for **educational** and **portfolio** purposes to showcase my development skills.  
-> It is **not affiliated with or endorsed by Digikala** or any other company.
+A responsive e-commerce app built with **Next.js (App Router), TypeScript, Redux Toolkit, React Query and Appwrite**.
+ 
+> **Live demo:** [digikala-clone-theta.vercel.app](https://digikala-clone-theta.vercel.app)
+ 
+> **Disclaimer:** this is a non-commercial clone built for educational and portfolio purposes. It is not affiliated with or endorsed by Digikala or any other company.
 
 ---
 
 ## 📸 Preview
 <a href="https://digikala-clone-theta.vercel.app/" target="_blank">
-  <img src="/screenshots/home.png" alt="Landing Page" />
+  <img src="screenshots/home.png" alt="Landing Page" />
 </a>
 
 <a href="https://digikala-clone-theta.vercel.app/products/68bcb470002dabca68b8" target="_blank">
-  <img src="/screenshots/product.png" alt="Product Page" />
+  <img src="screenshots/product.png" alt="Product Page" />
 </a>
 
 
@@ -21,24 +23,24 @@
 
 ### Cart Page
 <a href="https://digikala-clone-theta.vercel.app/cart" target="_blank">
-  <img src="/screenshots/cart.png" alt="Cart Page" />
+  <img src="screenshots/cart.png" alt="Cart Page" />
 </a>
 
 
 ### Profile Page
 <a href="https://digikala-clone-theta.vercel.app/profile" target="_blank">
-  <img src="/screenshots/profile.png" alt="Profile Page" />
+  <img src="screenshots/profile.png" alt="Profile Page" />
 </a>
 
 
 ### Search Page
 <a href="https://digikala-clone-theta.vercel.app/search" target="_blank">
-  <img src="/screenshots/search.png" alt="Search Page" />
+  <img src="screenshots/search.png" alt="Search Page" />
 </a>
 
 ### Login Page
 <a href="https://digikala-clone-theta.vercel.app/login" target="_blank">
-  <img src="/screenshots/login.png" alt="Login Page" />
+  <img src="screenshots/login.png" alt="Login Page" />
 </a>
 
 </details>
@@ -151,7 +153,7 @@
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 - Next.js (React, App Router)  
 - TypeScript  
 - Redux (Redux Toolkit)  
@@ -160,7 +162,7 @@
 - React Query  
 - Appwrite  
 
----
+<!-- ---
 
 ## 🧑‍💻 Skills
 - Core e-commerce functionalities:
@@ -184,7 +186,7 @@
   - Middleware  
   - Intercepting Routes  
   - Parallel Routes  
-  - Loading pages  
+  - Loading pages   -->
 
 ---
 
@@ -238,15 +240,15 @@ user: {
 * * * * *
 
 ## 🖥️ How to View the Project
----------------------------
 
-1.  Clone & install:
 
- - npm install --force
+1. Clone & install:
 
- - npm run dev
+    - npm install --force
 
- - Open <http://localhost:3000>
+    - npm run dev
+
+    - Open <http://localhost:3000>
 
 2. Or visit the live demo:
 [Live Demo](https://digikala-clone-theta.vercel.app)

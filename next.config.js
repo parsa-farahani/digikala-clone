@@ -1,12 +1,4 @@
 // import type { NextConfig } from "next";
-import withSerwistInit from "@serwist/next";
-
-
-const withSerwist = withSerwistInit({
-  swSrc: "app/sw.ts",     // your TS source
-  swDest: "public/sw.js", // output compiled JS here
-});
-
 
 const nextConfig = {
   // webpack: (
@@ -25,45 +17,6 @@ const nextConfig = {
   //   return config
   // },
 
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'Referrer-Policy',
-            value: 'strict-origin-when-cross-origin',
-          },
-        ],
-      },
-      {
-        source: '/sw.js',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'application/javascript; charset=utf-8',
-          },
-          {
-            key: 'Cache-Control',
-            value: 'no-cache, no-store, must-revalidate',
-          },
-          {
-            key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self'",
-          },
-        ],
-      },
-    ]
-  },
-
   experimental: {
     preloadEntriesOnStart: false,
     webpackMemoryOptimizations: true,
@@ -80,10 +33,6 @@ const nextConfig = {
       },
     ],
   },
-
-  eslint: {
-    ignoreDuringBuilds: true, // skips all ESLint errors at build time
-  },
 };
 
-export default withSerwist(nextConfig);
+export default nextConfig;

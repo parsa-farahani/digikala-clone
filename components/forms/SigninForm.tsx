@@ -17,7 +17,6 @@ import { checkAuthUser, clientLogout } from "@/redux/slices/auth/authSlice";
 import { initCartItems } from "@/lib/appwrite/actions/cart";
 import { selectCartItems } from "@/redux/slices/cart/cartSlice";
 import { useSignOutAccount } from "@/lib/react-query/api/users";
-import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
 const SignInSchema = z.object({
    email: z.email({ message: "ایمیل نامعتبر است" }),
@@ -34,8 +33,6 @@ const SigninForm = (
 ) => {
 
    const router = useRouter();
-
-   const isOnline = useOnlineStatus();
 
    const dispatch = useAppDispatch();
    const clientCartItems = useAppSelector(selectCartItems);
@@ -71,29 +68,6 @@ const SigninForm = (
 
 
    const onSubmit = async (values: z.infer<typeof SignInSchema>) => {
-
-      if(!isOnline) {
-         toast(
-            (t) => (
-               <span>
-                  لطفا به اینترنت متصل شوید.
-                  <button
-                     onClick={() => toast.dismiss(t.id)}
-                     style={{
-                        zIndex: '999999999',
-                        cursor: 'pointer',
-                        marginRight: '.75rem',
-                        color: '#19bfd3',
-                     }}
-                  >
-                     باشه
-                  </button>
-               </span>
-            ),
-         )
-
-         return;
-      }
 
       setIsLoading(true);
 

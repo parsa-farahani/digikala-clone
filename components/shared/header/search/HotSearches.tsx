@@ -7,7 +7,7 @@ import Chip from "../../Chip";
 const hotSearches = [
    {
       title: "تیشرت",
-      query: "تیشرت",
+      query: "تی شرت",
    },
    {
       title: "پلی استیشن",
